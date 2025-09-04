@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Validator</string>
+    <string-array name="categories">
+        <item>dish</item>
+        <item>decoder</item>
+        <item>lnb</item>
+        <item>bracket</item>
+    </string-array>
+</resources>

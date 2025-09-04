@@ -1,19 +1,12 @@
-# Backend - FastAPI Validator
+# Mobile App - Validator
 
-## Install
-```
-cd backend
-pip install -r requirements.txt
-```
+## Setup
+1. Open `mobile_app/` in Android Studio
+2. Update API URL in `ApiClient.java` when backend is ready (currently stubbed)
+3. Build & run on emulator or phone
 
-## Run
-```
-uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
-```
-
-## Notes
-- Upload reference images into `backend/app/static/` and name them:  
-  - dish.jpg  
-  - decoder.jpg  
-  - lnb.jpg  
-  - bracket.jpg  
+## Usage
+- Select a category (dish, decoder, lnb, bracket)
+- Select an image
+- Click "Upload & Validate"
+- Result will display
